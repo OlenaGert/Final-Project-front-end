@@ -4,13 +4,95 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Main page</title>
+    <link rel="stylesheet" href="../styles/style1.css">
     <script defer src="../scripts/index1.js"></script>
 </head>
 <body>
-    <h1>Main page</h1>
-    <button id="toSecondPage">Join meetup</button>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <img src="placeholder-logo.png" alt="Meetup Logo" class="logo">
+                <h1>The people platform—Where interests become friendships</h1>
+                <p>Whatever your interest, from hiking and reading to networking and skill sharing...</p>
+                <button id="toSecondPage" class="btn-primary">Join Meetup</button>
+            </div>
+        </header>
 
+        <main>
+            <section class="events">
+                <div class="container">
+                    <h2>Events near <span class="location">Mountain View, CA</span></h2>
+                    <div class="event-list">
+                        <div class="event-item">
+                            <img src="placeholder-event1.jpg" alt="Event 1">
+                            <p>Event 1</p>
+                        </div>
+                        <div class="event-item">
+                            <img src="placeholder-event2.jpg" alt="Event 2">
+                            <p>Event 2</p>
+                        </div>
+                        <div class="event-item">
+                            <img src="placeholder-event3.jpg" alt="Event 3">
+                            <p>Event 3</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
+            <section class="categories">
+                <div class="container">
+                    <h2>Explore top categories</h2>
+                    <div class="category-list">
+                        <span class="category"><img src="placeholder-travel.png" alt="Travel" class="icon"> Travel</span>
+                        <span class="category"><img src="placeholder-social.png" alt="Social Activities" class="icon"> Social Activities</span>
+                        <span class="category"><img src="placeholder-tech.png" alt="Technology" class="icon"> Technology</span>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="container">
+                <p>&copy; 2024 Meetup</p>
+                <div class="social-icons">
+                    <img src="placeholder-facebook.png" alt="Facebook" class="icon">
+                    <img src="placeholder-twitter.png" alt="Twitter" class="icon">
+                    <img src="placeholder-instagram.png" alt="Instagram" class="icon">
+                </div>
+            </div>
+        </footer>
+    </div>
+    
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- <div class="wrapper">
+        <header id="header" class="header">
+        </header>
+        <main class="mainPage">
+        </main>
+        <footer class="footer">
+    <h1>Main page</h1>
+    <button id="toSecondPage">Join meetup</button>
+</footer>
+</div>
+</body>
+</html> -->
 

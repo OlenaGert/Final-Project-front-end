@@ -1,13 +1,189 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Second page</title>
-<script defer src="../scripts/index2.js"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Second page</title>
+
+ <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="../styles/style2.css" />
+  <script defer src="../scripts/index2.js"></script>
 </head>
 <body>
-<h1>Second page</h1>
-<button id="toMainPage">Return maine page</button>
+  <div class="wrapper">
+  
+    <nav class="navbar">
+      <div class="container">
+        
+        <a href="#" class="meetup-navbar">
+          <img id="logo" src="../assets/images2page/png/Link - Meetup logo.png" alt="Meetup" />
+        </a>
+
+        <div class="search-container">
+          <div class="search-box">
+            <img src="../assets/images2page/svg/SVG Kopie.svg" alt="Search" class="input1" />
+            <input type="text" placeholder="Search events" class="search-input" />
+          </div>
+          <div class="location-box">
+            <input type="text" value="New York, NY" class="location-input" />
+            <button class="search-button">
+              <img src="../assets/images2page/svg/SVG (1).png" alt="Search" class="search-icon" />
+            </button>
+          </div>
+        </div>
+
+        <div class="user-actions">
+          <div class="language-selector">
+            <img class="welt-icon" src="../assets/images2page/svg/SVG.svg" alt="language" />
+            <span>English</span>
+          </div>
+          <div class="auth-buttons">
+            <button class="login-btn">Log in</button>
+            <button class="signup-btn">Sign up</button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <main class="main-content">
+
+      <div class="header-row">
+        <h2 class="page-title">Events near <span class="location">New York, NY</span></h2>
+        <div class="location-info">
+          <p class="map-sub">Find events near</p>
+          <p class="map-city">New York, NY</p>
+        </div>
+      </div>
+
+      <div class="main-layout">
+
+        <section class="events-block">
+
+          <div class="tabs">
+            <span class="tab active">Events</span>
+          </div>
+
+          <div class="filters">
+            <select id="typeFilter">
+              <option value="">Any type</option>
+              <option value="online">Online</option>
+              <option value="offline">Offline</option>
+            </select>
+            <select id="distanceFilter">
+              <option value="">Any distance</option>
+              <option value="5">5 km</option>
+              <option value="10">10 km</option>
+              <option value="15">15 km</option>
+              <option value="25">25 km</option>
+              <option value="50">50 km</option>
+              <option value="75">75 km</option>
+              <option value="100">100 km</option>
+            </select>
+            <select id="categoryFilter">
+              <option value="">Any category</option>
+              <option value="Social Activities">Social Activities</option>
+              <option value="Hobbies and Passions">Hobbies and Passions</option>
+              <option value="Health and Wellbeing">Health and Wellbeing</option>
+              <option value="Business">Business</option>
+              <option value="Technology">Technology</option>
+            </select>
+          </div>
+
+          <div class="event-list"></div>
+        </section>
+
+        <aside class="map-container">
+          <img src="../assets/images2page/png/map-thumbnail.png.png" alt="Map preview" class="map-image" />
+          <button class="map-close" aria-label="Close map">
+            <img src="../assets/images2page/svg/Button.svg" alt="Close icon" />
+          </button>
+          <button class="map-button">
+            Browse in map
+            <img src="../assets/images2page/svg/expandMapIcon.svg fill.svg" alt="Arrow icon" class="map-icon" />
+          </button>
+        </aside>
+      </div>
+    </main>
+
+    <footer class="footer">
+
+      <div class="footer-cta">
+        <h2>Create your own Meetup group.</h2>
+        <button class="btn-secondary">Get Started</button>
+      </div>
+
+      <div class="footer-container">
+        <div class="footer-section">
+          <h3>Your Account</h3>
+          <a href="#">Sign up</a>
+          <a href="#">Log in</a>
+          <a href="#">Help</a>
+          <a href="#">Become an Affiliate</a>
+        </div>
+        <div class="footer-section">
+          <h3>Discover</h3>
+          <a href="#">Groups</a>
+          <a href="#">Calendar</a>
+          <a href="#">Topics</a>
+          <a href="#">Cities</a>
+          <a href="#">Online Events</a>
+          <a href="#">Local Guides</a>
+          <a href="#">Make Friends</a>
+        </div>
+        <div class="footer-section">
+          <h3>Meetup</h3>
+          <a href="#">About</a>
+          <a href="#">Blog</a>
+          <a href="#">Meetup Pro</a>
+          <a href="#">Careers</a>
+          <a href="#">Apps</a>
+          <a href="#">Podcast</a>
+        </div>
+      </div>
+
+      <div class="footer-follow">
+        <h3>Follow us</h3>
+        <div class="footer-bottom">
+          <div class="social-icons">
+            <a href="#"><img src="../assets/images2page/svg/facebook.svg" alt="Facebook" /></a>
+            <a href="#"><img src="../assets/images2page/svg/twitter.svg" alt="Twitter" /></a>
+            <a href="#"><img src="../assets/images2page/svg/youtube.svg" alt="YouTube" /></a>
+            <a href="#"><img src="../assets/images2page/svg/instagram.svg" alt="Instagram" /></a>
+            <a href="#"><img src="../assets/images2page/svg/tiktok.svg" alt="TikTok" /></a>
+          </div>
+          <div class="app-links">
+            <a href="#"><img src="../assets/images2page/png/download_en-US.svg fill.png" alt="Get it on Google Play" /></a>
+            <a href="#"><img src="../assets/images2page/png/download_en-US.svg.png" alt="Download on the App Store" /></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-legal">
+        <p>
+          &copy; 2024 Meetup |
+          <a href="#">Terms of Service</a> |
+          <a href="#">Privacy Policy</a> |
+          <a href="#">Do Not Sell or Share My Personal Data</a> |
+          <a href="#">Cookie Policy</a> |
+          <a href="#">Help</a>
+        </p>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    const logo = document.getElementById("logo");
+    logo.addEventListener("click", () => {
+      window.location.pathname = "/project-folder/html/index.html";
+    });
+
+    const toMainPage = document.getElementById("toMainPage");
+    if (toMainPage) {
+      toMainPage.addEventListener("click", () => {
+        window.location.pathname = "/project-folder/html/index.html";
+      });
+    }
+  </script>
 </body>
 </html>
