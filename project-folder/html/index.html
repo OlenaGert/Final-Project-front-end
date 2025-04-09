@@ -4,65 +4,333 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Main page</title>
-    <link rel="stylesheet" href="../styles/style1.css">
-    <script defer src="../scripts/index1.js"></script>
+    
+ <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="../styles/style1.css" />
+  <script defer src="../scripts/index1.js"></script>
+
 </head>
 <body>
     <div class="wrapper">
-        <header class="header">
-            <div class="container">
-                <img src="placeholder-logo.png" alt="Meetup Logo" class="logo">
-                <h1>The people platform—Where interests become friendships</h1>
-                <p>Whatever your interest, from hiking and reading to networking and skill sharing...</p>
-                <button id="toSecondPage" class="btn-primary">Join Meetup</button>
-            </div>
-        </header>
 
-        <main>
-            <section class="events">
+    <nav class="navbar">
+      <div class="container">
+ 
+        <a href="#" class="meetup-navbar">
+          <img id="logo" src="../assets/images2page/png/Link - Meetup logo.png" alt="Meetup" />
+        </a>
+
+        <div class="search-container">
+          <div class="search-box">
+            <img src="../assets/images2page/svg/SVG Kopie.svg" alt="Search" class="input1" />
+            <input type="text" placeholder="Search events" class="search-input" />
+          </div>
+          <div class="location-box">
+            <input type="text" value="New York, NY" class="location-input" />
+            <button class="search-button">
+              <img src="../assets/images2page/svg/SVG (1).png" alt="Search" class="search-icon" />
+            </button>
+          </div>
+        </div>
+
+        <div class="user-actions">
+          <div class="language-selector">
+            <img class="welt-icon" src="../assets/images2page/svg/SVG.svg" alt="language" />
+            <span>English</span>
+          </div>
+          <div class="auth-buttons">
+            <button class="login-btn">Log in</button>
+            <button class="signup-btn">Sign up</button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <main class="main-content">
+  
+            <header class="header">
                 <div class="container">
-                    <h2>Events near <span class="location">Mountain View, CA</span></h2>
-                    <div class="event-list">
-                        <div class="event-item">
-                            <img src="placeholder-event1.jpg" alt="Event 1">
-                            <p>Event 1</p>
-                        </div>
-                        <div class="event-item">
-                            <img src="placeholder-event2.jpg" alt="Event 2">
-                            <p>Event 2</p>
-                        </div>
-                        <div class="event-item">
-                            <img src="placeholder-event3.jpg" alt="Event 3">
-                            <p>Event 3</p>
-                        </div>
-                    </div>
+                    <div class="header-content">
+                        <div class="text-block">
+                    <h1>The people platform—Where interests become friendships</h1>
+                    <p>Whatever your interest, from hiking and reading to networking and skill sharing,
+                        there are thousands of people who share it on Meetup. Events are happening
+                        every day—sign up to join the fun.</p>
+                    <button id="toSecondPage" class="btn-primary">Join Meetup</button>
                 </div>
-            </section>
+                <div class="image-block">
+                    <img src="../assets/images1page/png/irl_event.svg (1).png" alt="People illustration">
+                  </div>
+                </div>
+              </div>
+            </header>
+       
+  <section class="events-near">
+    <div class="container">
+      <div class="events-header">
+        <h2>Events near</h2>
+        
+        <div class="location-filter">
+          <span>Mountain View, CA</span>
+          <img src="../assets/images1page/svg/Link → SVG.svg" alt="Edit" class="edit-icon">
+        </div>
+        <a href="#" class="see-all-events">See all events</a>
+      </div>
 
-            <section class="categories">
-                <div class="container">
-                    <h2>Explore top categories</h2>
-                    <div class="category-list">
-                        <span class="category"><img src="placeholder-travel.png" alt="Travel" class="icon"> Travel</span>
-                        <span class="category"><img src="placeholder-social.png" alt="Social Activities" class="icon"> Social Activities</span>
-                        <span class="category"><img src="placeholder-tech.png" alt="Technology" class="icon"> Technology</span>
-                    </div>
-                </div>
-            </section>
-        </main>
-
-        <footer class="footer">
-            <div class="container">
-                <p>&copy; 2024 Meetup</p>
-                <div class="social-icons">
-                    <img src="placeholder-facebook.png" alt="Facebook" class="icon">
-                    <img src="placeholder-twitter.png" alt="Twitter" class="icon">
-                    <img src="placeholder-instagram.png" alt="Instagram" class="icon">
-                </div>
-            </div>
-        </footer>
+      <div class="event-list">
+          
+  <div class="event-card">
+    <img src="../assets/images1page/png/Link.png" alt="Event preview">
+    <h3>Day Trading Idea and Strategy</h3>
+    <p>Business (5 km)</p>
+    <span class="event-info">
+      <img src="../assets/images1page/svg/SVG (2).png" alt="Date" class="icon">
+      MON, MAR 18 · 7:00 PM PDT
+    </span>
+    <div class="event-meta">
+      <span><img src="../assets/images1page/svg/SVG (3).png" alt="People" class="icon">1 going</span>
+      <span><img src="../assets/images1page/svg/SVG (4).png" alt="Free" class="icon">Free</span>
     </div>
-    
+  </div>
+
+  <div class="event-card">
+    <img src="../assets/images1page/png/event_519345287.webp.png" alt="Let’s Talk Networking">
+    <h3>Let’s Talk Networking: JPMorgan Chase in Palo Alto</h3>
+    <p>Business (25 km)</p>
+    <span class="event-info">
+      <img src="../assets/images1page/svg/SVG (2).png" alt="Date" class="icon">
+      TUE, MAR 19 · 5:00 PM PDT
+    </span>
+    <div class="event-meta">
+      <span><img src="../assets/images1page/svg/SVG (3).png" alt="People" class="icon">41 going</span>
+      <span><img src="../assets/images1page/svg/SVG (4).png" alt="Free" class="icon">Free</span>
+    </div>
+  </div>
+
+  <div class="event-card">
+    <img src="../assets/images1page/png/event_519446442.webp.png" alt="Tech Talks & Quiz">
+    <h3>Tech Talks & Quiz: Next-Gen Database Solutions</h3>
+    <p>Technology</p>
+    <span class="event-info">
+      <img src="../assets/images1page/svg/SVG (2).png" alt="Date" class="icon">
+      WED, MAR 13 · 6:00 PM PDT
+    </span>
+    <div class="event-meta">
+      <span><img src="../assets/images1page/svg/SVG (3).png" alt="People" class="icon">40 going</span>
+      <span><img src="../assets/images1page/svg/SVG (4).png" alt="Free" class="icon">Free</span>
+    </div>
+  </div>
+
+  <div class="event-card">
+    <img src="../assets/images1page/png/Link (1).png" alt="INFORMS Chapter">
+    <h3>INFORMS San Francisco Chapter In-Person Event</h3>
+    <p>Health and Wellbeing (50 km)</p>
+    <span class="event-info">
+      <img src="../assets/images1page/svg/SVG (2).png" alt="Date" class="icon">
+      THU, MAR 28 · 5:00 PM PDT
+    </span>
+    <div class="event-meta">
+      <span><img src="../assets/images1page/svg/SVG (3).png" alt="People" class="icon">41 going</span>
+      <span><img src="../assets/images1page/svg/SVG (4).png" alt="Free" class="icon">Free</span>
+    </div>
+  </div>
+
+  <div class="event-card">
+    <img src="../assets/images1page/png/Link (2).png" alt="AI Wednesdays">
+    <h3>AI Wednesdays – Meet and Greet</h3>
+    <p>Technology (5 km)</p>
+    <span class="event-info">
+      <img src="../assets/images1page/svg/SVG (2).png" alt="Date" class="icon">
+      WED, MAR 13 · 6:30 PM PDT
+    </span>
+    <div class="event-meta">
+      <span><img src="../assets/images1page/svg/SVG (3).png" alt="People" class="icon">29 going</span>
+      <span><img src="../assets/images1page/svg/SVG (4).png" alt="Free" class="icon">Free</span>
+    </div>
+  </div>
+
+  <div class="event-card">
+    <img src="../assets/images1page/png/Link (3).png" alt="ROS By-The-Bay March">
+    <h3>ROS By-The-Bay March 2024</h3>
+    <p>Social Activities</p>
+    <span class="event-info">
+      <img src="../assets/images1page/svg/SVG (2).png" alt="Date" class="icon">
+      THU, MAR 21 · 6:00 PM PDT
+    </span>
+    <div class="event-meta">
+      <span><img src="../assets/images1page/svg/SVG (3).png" alt="People" class="icon">51 going</span>
+      <span><img src="../assets/images1page/svg/SVG (4).png" alt="Free" class="icon">Free</span>
+    </div>
+  </div>
+
+  <div class="event-card">
+    <img src="../assets/images1page/png/Link (4).png" alt="Free Christian Singles Dinner">
+    <h3>Free Christian Singles’ Dinner</h3>
+    <p>Hobbies and Passions (10 km)</p>
+    <span class="event-info">
+      <img src="../assets/images1page/svg/SVG (2).png" alt="Date" class="icon">
+      FRI, MAR 29 · 6:00 PM PDT
+    </span>
+    <div class="event-meta">
+      <span><img src="../assets/images1page/svg/SVG (3).png" alt="People" class="icon">11 going</span>
+      <span><img src="../assets/images1page/svg/SVG (4).png" alt="Free" class="icon">Free</span>
+    </div>
+  </div>
+
+  <div class="event-card">
+    <img src="../assets/images1page/png/Link (5).png" alt="Dive into RAG">
+    <h3>In-person: Deep Dive into RAG Architectures</h3>
+    <p>Hobbies and Passions (50 km)</p>
+    <span class="event-info">
+      <img src="../assets/images1page/svg/SVG (2).png" alt="Date" class="icon">
+      FRI, MAR 29 · 6:00 PM PDT
+    </span>
+    <div class="event-meta">
+      <span><img src="../assets/images1page/svg/SVG (3).png"alt="People" class="icon">16 going</span>
+      <span><img src="../assets/images1page/svg/SVG (4).png" alt="Free" class="icon">Free</span>
+    </div>
+  </div>
+
+  <div class="event-card">
+    <img src="../assets/images1page/png/Link (6).png" alt="Authentic Edge Summit">
+    <h3>Amazing On-Demand 15 Min Interviews</h3>
+    <p>Business (25 km)</p>
+    <span class="event-info">
+      <img src="../assets/images1page/svg/SVG (2).png" alt="Date" class="icon">
+      THU, MAR 14 · 6:00 PM PDT
+    </span>
+    <div class="event-meta">
+      <span><img src="../assets/images1page/svg/SVG (3).png" alt="People" class="icon">3 going</span>
+      <span><img src="../assets/images1page/svg/SVG (4).png" alt="Free" class="icon">Free</span>
+    </div>
+  </div>
+
+  <div class="event-card">
+    <img src="../assets/images1page/png/Link (7).png" alt="Vision Pro Developers">
+    <h3>Vision Pro Developers Online Meetup</h3>
+    <p>Technology</p>
+    <span class="event-info">
+      <img src="../assets/images1page/svg/SVG (2).png" alt="Date" class="icon">
+      WED, MAR 13 · 7:00 PM PDT
+    </span>
+    <div class="event-meta">
+      <span><img src="../assets/images1page/svg/SVG (3).png"alt="People" class="icon">51 going</span>
+      <span><img src="../assets/images1page/svg/SVG (4).png" alt="Free" class="icon">Free</span>
+    </div>
+  </div>
+
+  <div class="event-card">
+    <img src="../assets/images1page/png/Link (8).png" alt="Significant Musical Moments">
+    <h3>Significant Musical Moments</h3>
+    <p>Hobbies and Passions (10 km)</p>
+    <span class="event-info">
+      <img src="../assets/images1page/svg/SVG (2).png" alt="Date" class="icon">
+      WED, MAR 13 · 6:00 PM PDT
+    </span>
+    <div class="event-meta">
+      <span><img src="../assets/images1page/svg/SVG (3).png" alt="People" class="icon">16 going</span>
+      <span><img src="../assets/images1page/svg/SVG (4).png" alt="Free" class="icon">Free</span>
+    </div>
+  </div>
+
+  <div class="event-card">
+    <img src="../assets/images1page/png/Link (9).png" alt="FREE Webinar: Power BI">
+    <h3>FREE Webinar: Introduction to Power BI</h3>
+    <p>Technology</p>
+    <span class="event-info">
+      <img src="../assets/images1page/svg/SVG (2).png" alt="Date" class="icon">
+      THU, MAR 14 · 5:00 PM PDT
+    </span>
+    <div class="event-meta">
+      <span><img src="../assets/images1page/svg/SVG (3).png" alt="People" class="icon">33 going</span>
+      <span><img src="../assets/images1page/svg/SVG (4).png" alt="Free" class="icon">Free</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+        
+    <footer class="footer">
+
+      <div class="footer-cta">
+        <h2>Create your own Meetup group.</h2>
+        <button class="btn-secondary">Get Started</button>
+      </div>
+
+      <div class="footer-container">
+        <div class="footer-section">
+          <h3>Your Account</h3>
+          <a href="#">Sign up</a>
+          <a href="#">Log in</a>
+          <a href="#">Help</a>
+          <a href="#">Become an Affiliate</a>
+        </div>
+        <div class="footer-section">
+          <h3>Discover</h3>
+          <a href="#">Groups</a>
+          <a href="#">Calendar</a>
+          <a href="#">Topics</a>
+          <a href="#">Cities</a>
+          <a href="#">Online Events</a>
+          <a href="#">Local Guides</a>
+          <a href="#">Make Friends</a>
+        </div>
+        <div class="footer-section">
+          <h3>Meetup</h3>
+          <a href="#">About</a>
+          <a href="#">Blog</a>
+          <a href="#">Meetup Pro</a>
+          <a href="#">Careers</a>
+          <a href="#">Apps</a>
+          <a href="#">Podcast</a>
+        </div>
+      </div>
+
+      <div class="footer-follow">
+        <h3>Follow us</h3>
+        <div class="footer-bottom">
+          <div class="social-icons">
+            <a href="#"><img src="../assets/images2page/svg/facebook.svg" alt="Facebook" /></a>
+            <a href="#"><img src="../assets/images2page/svg/twitter.svg" alt="Twitter" /></a>
+            <a href="#"><img src="../assets/images2page/svg/youtube.svg" alt="YouTube" /></a>
+            <a href="#"><img src="../assets/images2page/svg/instagram.svg" alt="Instagram" /></a>
+            <a href="#"><img src="../assets/images2page/svg/tiktok.svg" alt="TikTok" /></a>
+          </div>
+          <div class="app-links">
+            <a href="#"><img src="../assets/images2page/png/download_en-US.svg fill.png" alt="Get it on Google Play" /></a>
+            <a href="#"><img src="../assets/images2page/png/download_en-US.svg.png" alt="Download on the App Store" /></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-legal">
+        <p>
+          &copy; 2024 Meetup |
+          <a href="#">Terms of Service</a> |
+          <a href="#">Privacy Policy</a> |
+          <a href="#">Do Not Sell or Share My Personal Data</a> |
+          <a href="#">Cookie Policy</a> |
+          <a href="#">Help</a>
+        </p>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    const logo = document.getElementById("logo");
+    logo.addEventListener("click", () => {
+      window.location.pathname = "/project-folder/html/index.html";
+    });
+
+    const toMainPage = document.getElementById("toMainPage");
+    if (toMainPage) {
+      toMainPage.addEventListener("click", () => {
+        window.location.pathname = "/project-folder/html/index.html";
+      });
+    }
+  </script>
 </body>
 </html>
 
@@ -78,21 +346,4 @@
 
 
 
-
-
-
-
-
-    <!-- <div class="wrapper">
-        <header id="header" class="header">
-        </header>
-        <main class="mainPage">
-        </main>
-        <footer class="footer">
-    <h1>Main page</h1>
-    <button id="toSecondPage">Join meetup</button>
-</footer>
-</div>
-</body>
-</html> -->
 
