@@ -31,7 +31,6 @@ body {
     width: auto;
     width: 95px;
     margin-right: 40px;
-
 }
 
 .search-container {
@@ -40,9 +39,7 @@ body {
     max-width:600px;
     margin-right: 470px;
     margin-left: 15px;
-
 }
-
 
 .search-box{
     display: flex;
@@ -68,7 +65,6 @@ body {
 .search-box img, .search-button img {
     width: 16px;
     height: 16px;
-    
 }
 
 .search-input {
@@ -84,9 +80,7 @@ body {
     border: none;
     outline: none;
     width: 100%;
-    font-size: 16px;
-    
-    
+    font-size: 16px; 
 }
 
 .search-button {
@@ -102,14 +96,12 @@ body {
     justify-content: center;
     height: 42px;
     width: 42px;
-    right: 0;
-    
+    right: 0; 
 }
 
 .search-button img {
     width: 16px;
     height: 16px;
-
 }
 
 .user-actions {
@@ -119,21 +111,17 @@ body {
     cursor: pointer;
 }
 
-    
 .language-selector{
     display: flex;
     align-items: center;
     gap: 10px;
-   
 }
    
 .language-selector span {
     font-size: 14px;
     cursor: pointer;
     margin-top: 20px;
-   
 }
-
 
 .auth-buttons {
     display: flex;
@@ -148,8 +136,6 @@ body {
     transition: all 0.3s ease;
     background: none;
     min-width: 72px;
-    
-
 }
  .signup-btn {
     background-color: rgba(0, 121, 138, 1);
@@ -161,14 +147,11 @@ body {
     color: white;
     border: none;
     min-width: 83px;
-    
 }
-
 
 .login-btn:hover {
     background: #f5f5f5;
 }
-
 
 .signup-btn:hover {
     background-color: #141313;
@@ -180,8 +163,8 @@ body {
     font-weight: 500;
     text-decoration: none;
     white-space: nowrap;
-    margin-left: 650px; /* Это вытолкнет ссылку вправо */
-    padding-right: 0; /* Добавим отступ справа */
+    margin-left: 650px; 
+    padding-right: 0; 
 }
 @media (max-width: 390px) {
     body {
@@ -242,14 +225,12 @@ body {
     }
   }
   
-  /* 📱 Стандартные смартфоны: до 480px */
   @media (max-width: 480px) {
     .search-container {
       margin-right: 0;
     }
   }
   
-  /* 📱 Планшеты: до 768px */
   @media (max-width: 768px) {
     .container {
       flex-wrap: wrap;
@@ -262,36 +243,18 @@ body {
     }
   }
   
-  /* 💻 Небольшие ноутбуки: до 1024px */
   @media (max-width: 1024px) {
     .search-container {
       margin-right: 0;
     }
   }
   
-  /* 🖥 Десктоп: до 1280px */
   @media (max-width: 1280px) {
     .container {
       padding: 0 15px;
     }
   }
   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* начало маин */
 .hero {
     margin: 0 auto;
     padding: 100px 0 150px;
@@ -316,9 +279,7 @@ body {
     align-items: flex-start;
     text-align: left;
     
-   
 }
-
 
 .text-container h1 {
     margin-right: 100px;
@@ -339,7 +300,6 @@ body {
     margin-left: 0;
     padding-left: 0;
    
-   
 }
 
 .hero-description {
@@ -349,9 +309,6 @@ body {
     margin-bottom: 30px;
     max-width: 650px;
 }
-
-
-
 
 .join-button {
     background-color:rgba(0, 121, 138, 1) ;
@@ -372,7 +329,6 @@ body {
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
-
 .image-container img {
     min-width: 380px;
     max-width: 100%;
@@ -387,8 +343,8 @@ body {
     font-weight: 500;
     text-decoration: none;
     white-space: nowrap;
-    margin-left: 40px; /* Это вытолкнет ссылку вправо */
-    padding-right: 0; /* Добавим отступ справа */
+    margin-left: 40px; 
+    padding-right: 0; 
 
 }
 .all-link:hover {
@@ -465,10 +421,6 @@ body {
     }
 }
 
-
-
-
-/* block with bild */
 .events-grid-container {
     position: relative;
     z-index: 1;
@@ -490,13 +442,10 @@ body {
   }
  
   .header-group {
-   
     display: flex;
     align-items: center;
     justify-content: flex-start;
     gap: 30px;
-
-   
   }
 
   .events-title {
@@ -505,7 +454,6 @@ body {
     color: #060606;
     margin: 0;
     padding: 0;
-
     white-space: nowrap;
   }
 
@@ -519,12 +467,9 @@ body {
     border-radius: 5px;
     padding-left: 40px;
     
-
 }
  
- 
-  
-  
+
   .events-header p {
   
     font-size: 17px;
@@ -534,29 +479,23 @@ body {
   font-weight: 600;
   }
  
-  
-  
   .events-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr); 
     grid-template-rows: auto auto; 
     gap: 20px;
 
-   
   }
   
   .event-image{
     min-width: 272px;
     width: 100%;
     height:153px;
-    
-
   }
 
   .event-card {
     padding-bottom:56px ;
     padding-right: 20px
-    
     
   }
   
@@ -608,8 +547,7 @@ body {
     display: flex;
     gap: 10px;
 }
-/* 
-    послдение 4 картинки */
+
     .upcoming{
         font-size: 28px;
         font-family: Arial, sans-serif;
@@ -624,17 +562,9 @@ body {
         gap: 760px;
         margin-bottom: 25px;
         margin-top: 40px;
-
-        /* width: 100%;
-        justify-content: space-between;
-        max-width: 1200px;
-        box-sizing: border-box;
-        margin-left: auto;
-    margin-right: auto;
-    padding: 0 20px; */
     }
 
-/* див с кнопкой sign-up */
+
 
     .Join-Meetup{
         width: 1200px;
@@ -646,11 +576,12 @@ body {
         justify-content: space-between;
         padding: 40px 20px;
     }
+
    .text-join{
     flex: 1;
     max-width: 700px;
-    
    }
+
     h1{
         font-size: 28px;
         font-weight: bold;
@@ -691,8 +622,6 @@ body {
         border-radius: 8px;
     }
 
-    /* 8 карточек */
-
     .explore-section {
         width: 1200px;
         margin: 0;
@@ -701,7 +630,7 @@ body {
         box-sizing: border-box;
     }
     
-     span{
+     span {
     font-size: 16px;
     line-height: 1.5;
     color: #080707;
@@ -719,7 +648,6 @@ body {
         padding: 0; 
         padding-bottom: 25px;
         padding-top: 40x;
-      
     }
     
     .game-card {
@@ -727,7 +655,6 @@ body {
         justify-content: space-between;
         gap: 19px;
         width: 100%;
-
     }
     
     .cards {
@@ -742,7 +669,6 @@ body {
         background-color:rgba(151, 202, 209, 0.08);
         box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
         transition: all 0.3s ease;
-        
     }
     
     .cards:hover {
@@ -815,10 +741,6 @@ body {
         margin-bottom: 25px;  
       }
 
-      /* лупа со знаком плюс-контейнер */
-      
- 
-
       .how-meetup-container {
         max-width: 1200px;
         width: 100%;
@@ -854,10 +776,6 @@ body {
         height: auto;
         border-radius: 8px;
         background-color: rgba(151, 202, 209, 0.08);
-       
-        
-       
-
     }
     .start-container {
     
@@ -945,13 +863,9 @@ body {
     gap:30px ;
 }
 .friendships_column {
-padding: 30px 0 0 0;
-
-   
-    
-   
-    
+padding: 30px 0 0 0;  
 }
+
 .friendships_column p{
 color: rgba(112, 112, 112, 1);
 margin-bottom: 15px;
@@ -976,7 +890,7 @@ font-weight: 600px;
 
 
 
-/* footer */
+
 .footer {
     background-color: #212121;
     padding: 30px 0 40px;
@@ -1041,6 +955,7 @@ font-weight: 600px;
     font-size: 16px;
     margin-bottom: 10px;
 }
+
 .footer-section a {
     color: #ccc;
     text-decoration: none;
@@ -1051,7 +966,6 @@ font-weight: 600px;
 .footer-section a:hover {
     text-decoration: underline;
 }
-
 
 .footer-follow {
     display: flex;
